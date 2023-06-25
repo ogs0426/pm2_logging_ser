@@ -1,0 +1,17 @@
+{
+  "redis": {
+    "host": "dev-redis.tpfnwk.0001.apn2.cache.amazonaws.com",
+    "port": 6379
+  },
+  "schedule": {
+      "useSystemOperating": "N",  
+      "useRedisUpdate": "Y"
+  },
+  "datasource": {
+      "host": "dev-db.cdznzk9ofzyu.ap-northeast-2.rds.amazonaws.com",
+      "port": 3306,
+      "user": "sponge",
+      "password": "spotv12#$",
+      "database": "dev"
+  }
+}

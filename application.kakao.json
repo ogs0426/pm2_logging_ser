@@ -1,0 +1,17 @@
+{
+  "redis": {
+    "host": "k-ad.spongead.com",
+    "port": 6379
+  },
+  "schedule": {
+      "useSystemOperating": "N",  
+      "useRedisUpdate": "Y"
+  },
+  "datasource": {
+      "host": "dev-db.cdznzk9ofzyu.ap-northeast-2.rds.amazonaws.com",
+      "port": 3306,
+      "user": "sponge",
+      "password": "spotv12#$",
+      "database": "kakao"
+  }
+}

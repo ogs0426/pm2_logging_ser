@@ -1,0 +1,13 @@
+{
+  "apps": [{
+    "name": "Logging Server",
+    "script": "app.js",
+    "watch": false,
+    "env": {
+            "NODE_ENV": "stag"
+    },
+    "exec_mode": "cluster",
+    "instances": 0,
+    "merge_logs": true
+  }]
+}
